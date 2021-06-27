@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <main role="main">
+        <form action="#" method="POST">
+            <label for="nome1">Nome</label>
+            <input type="text" name="nome" id="nome1">
+
+            <label for="interesses1">Interesses de estudo</label>
+            <select name="interesses" id="interesses1">
+                <option value="1">Vendas</option>
+                <option value="2">Marketing</option>
+            </select>
+
+            <fieldset>
+                <label for="">Interesses de estudo ||</label>
+                <label for="interesses3">Vendas</label>
+                <input type="radio" name="interesses2" value="1" id="interesses3">
+
+                <label for="interesses4">Marketing</label>
+                <input type="radio" name="interesses2" id="interesses4">
+
+            </fieldset>
+            <fieldset>
+                <!-- o atributo "for" faz o "focus" -->
+                <label for="">Interesses de estudo ||</label> 
+                <label for="interesses5">Vendas</label>
+                <input type="checkbox" name="interesses3" value="1" id="interesses5">
+
+                <label for="interesses6">Marketing</label>
+                <input type="checkbox" name="interesses4" id="interesses6">
+            </fieldset>
+        </form>
+    </main>
+</body>
+
+</html>
